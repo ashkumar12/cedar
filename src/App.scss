@@ -1,0 +1,41 @@
+.App {
+  min-height: 100vh;
+  text-align: center;
+  background-color: #f2f8ff;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 40px;
+  width: 153px;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 81px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.confirmation {
+  padding-top: 96px;
+  font-family: Georgia;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  display: flex;
+  justify-content: center;
+  color: #13126c;
+
+  > div {
+    width: 343px;
+    height: 72px;
+  }
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
